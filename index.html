@@ -3,18 +3,19 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <!--created a new relative path to seperate class benefits (update #5)-->
-    <link rel="stylesheet" href="./assets/css/style2.css">
-    <!-- added a reset css file to clear (update #1)-->
+    <!-- added realtive links to CSS files (update#1, #5, #9-->
+    <link rel="stylesheet" href="./assets/css/benefits.css">
+    <link rel="stylesheet" href="./assets/css/contents.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
     <!--<link rel="stylesheet" href="./assets/css/reset.css">-->
     <title>website</title>
 </head>
 
 <body>
     <!-- removed the <div></div> as a header class and added as header syntax (update#6)-->
+    <!-- changed seo to an ID since it is not going to be used in any other occasion (update#7)-->
     <header>
-        <!-- changed seo to an ID since it is not going to be used in any other occasion (update#7)-->
         <h1>Hori<span id="seo">seo</span>n</h1>
         <div>
             <ul>
@@ -30,11 +31,14 @@
             </ul>
         </div>
     </header>
-        <!-- removed <div></div> so as to identify the class as an image (update# 7)-->
+    
+    <!-- removed <div></div> so as to identify the class as an image (update# 7)-->
     <img class="hero">
-  <!-- changed the div to be the main tag (update #8)-->
+    
+    <!-- changed the div to be the main tag (update #8)-->
+    <!-- replaced the divs to articles blocks and removed unnecessary ID tags(update #8 &#9)-->
     <main class="content">
-        <!-- replaced the divs to articles blocks (update #8)-->
+        
         <article id="search-engine-optimization" class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
@@ -42,7 +46,7 @@
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </article>
-         <!-- replaced the divs to articles blocks (update #8)-->
+        
         <article id="online-reputation-management" class="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
             <h2>Online Reputation Management</h2>
@@ -50,7 +54,7 @@
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </article>
-         <!-- replaced the divs to articles blocks (update #8)-->
+         
         <article id="social-media-marketing" class="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
             <h2>Social Media Marketing</h2>

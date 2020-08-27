@@ -17,7 +17,6 @@
     color: #ffffff;
 }
 
-/* combined benefit h3 together (update #4) */
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-lead h3 {
@@ -25,7 +24,6 @@
     text-align: center;
 }
 
-/* combined benefit img together (update #4) */
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
